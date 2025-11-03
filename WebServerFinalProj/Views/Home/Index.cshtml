@@ -3,6 +3,27 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to HobbySite</h1>
+    <p class="lead">Track your favorite pastimes and share what keeps you inspired.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="h5">Explore Hobbies</h2>
+                <p>Browse a growing list of hobbies and learn how to get started.</p>
+                <a class="btn btn-primary" asp-controller="Hobbies" asp-action="Index">View Hobbies</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="h5">About This Project</h2>
+                <p>Meet the creator and find out why this collection exists.</p>
+                <a class="btn btn-outline-secondary" asp-controller="Home" asp-action="Privacy">Learn More</a>
+            </div>
+        </div>
+    </div>
 </div>
